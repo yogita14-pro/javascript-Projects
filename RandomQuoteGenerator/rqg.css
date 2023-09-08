@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Delius&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+#quote{
+    font-weight: 700;
+    color: rgb(233, 233, 233);
+    text-shadow: 1px 1px 1px black;
+    font-size: 4vw;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 20px 40px;
+    font-family: 'Delius', cursive;
+}
+#author{
+    margin-top: 20px;
+    color: rgb(223, 212, 212);
+    text-shadow: 1px 1px 1px black;
+    position: relative;
+    top: 45%;
+    font-size: 200%;
+    font-family: 'Dancing Script', cursive;
+}
+.by{
+    position: relative;
+    font-size: 150%;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(174, 166, 166);
+}
+button{
+    position: fixed;
+    background-color: transparent;
+    color: rgb(231, 239, 247);
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: 2px solid whitesmoke;
+    top: 350px;
+    margin: 5%;
+    cursor: pointer;
+    font-size: 30px;
+}
